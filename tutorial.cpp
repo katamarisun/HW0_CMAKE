@@ -20,8 +20,7 @@ using namespace CGL;
 int main(int argc, char* argv[])
 {
 
-  double inputValue = atof(argv[1]);
-  double outputValue = 0;
+
   Vector2D a = Vector2D(atof(argv[1]), atof(argv[2]));
   Vector2D b = Vector2D(atof(argv[3]), atof(argv[4]));
   Vector2D result = 1.0 * dot(a, b) / a.norm2() * a;
